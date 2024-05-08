@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocconcino Hawaii</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/home"><img  src="logo.png" alt="Bocconcino Hawaii Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/signup">Signup</a></li>
+                <li><a href="/shop">Shop</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/info">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="main-content">
+        <h1 class="main-title">Welcome to Bocconcino Hawaii</h1>
+        
+        <!-- Images linking to shop page -->
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <div class="carousel-inner">
+                 <div class="product">
+                     <a href="#shop"><img src="Salsiccia-Porcini.jpg" alt="Salsiccia & Porcini"></a>
+                     <p>Salsiccia & Porcini</p>
+                      <p>$20.00</p>
+                    </div>
+                    <div class="product">
+                        <a href="#shop"><img src="Bolognese.jpg" alt="Bolognese"></a>
+                        <p>Bolognese</p>
+                        <p>$19.00</p>
+                    </div>
+                    <div class="product">
+                        <a href="#shop"><img src="Bolognese.jpg" alt="Bolognese"></a>
+                        <p>Bolognese</p>
+                        <p>$19.00</p>
+                    </div>
+                </div>
+            </div>
+            <button id="prevButton" class="carousel-button">Prev</button>
+            <button id="nextButton" class="carousel-button">Next</button>
+        </div>
+    </div>
+
+    <script src="./carousel.js"></script>
+    <footer>
+        <!-- Social media links -->
+        <div class="social-media">
+            <a href="https://www.instagram.com/bocconcinohawaii/"><img src="instagram.jpg" alt="Instagram"></a>
+        </div>
+        
+        <!-- Address and phone number -->
+        <div class="contact-info">
+            <p>978 Kawaiahao St, 96814, Honolulu</p>
+            <p>Phone: (808) 200-2830</p>
+        </div>
+    </footer>
+</body>
+</html>

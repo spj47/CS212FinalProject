@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Bocconcino Hawaii</title>
+    <link rel="stylesheet" href="signup-style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/home"><img  src="logo.png" alt="Bocconcino Hawaii Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/signup">Signup</a></li>
+                <li><a href="/shop">Shop</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/info">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <p id="successText">This is a test</p>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" id="signupButton">Sign Up</button>
+        </form>
+    </div>
+
+    <footer>
+        <!-- Social media links -->
+        <div class="social-media">
+            <a href="https://www.instagram.com/bocconcinohawaii/"><img src="instagram.jpg" alt="Instagram"></a>
+        </div>
+
+        <!-- Address and phone number -->
+        <div class="contact-info">
+            <p>978 Kawaiahao St, 96814, Honolulu</p>
+            <p>Phone: (808) 200-2830</p>
+        </div>
+    </footer>
+    <script src="./signup.js"></script>
+</body>
+</html>

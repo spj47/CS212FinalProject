@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <script src="addtocart.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/home"><img  src="logo.png" alt="Bocconcino Hawaii Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/signup">Signup</a></li>
+                <li><a href="/shop">Shop</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/info">Info</a></li>
+                <li><a href="/items/">Items</a></li>
+            </ul>
+        </nav>
+        <button class="cost-sort-btn">Sort by cost</button> 
+    </header>
+    <input type="text" id="search-input" class="search-bar" placeholder="Search products...">
+
+
+
+    <main>
+        <section id="entree-section">
+            <h2>Entree</h2>
+            <!-- Products will be dynamically inserted here -->
+        </section>
+    
+        <section id="desserts-section">
+            <h2>Dessert</h2>
+            <!-- Products will be dynamically inserted here -->
+        </section>
+    </main>
+    
+
+    <footer>
+        <!-- Social media links -->
+        <div class="social-media">
+            <a href="https://www.instagram.com/bocconcinohawaii/"><img src="instagram.jpg" alt="Instagram"></a>
+        </div>
+        
+        <!-- Address and phone number -->
+        <div class="contact-info">
+            <p>978 Kawaiahao St, 96814, Honolulu</p>
+            <p>Phone: (808) 200-2830</p>
+        </div>
+        
+    </footer>
+
+    <!-- <script src="script.js"></script> 
+    <script src="script2.js"></script> -->
+    <script src="./sort.js"></script>
+</body>
+
+</html>

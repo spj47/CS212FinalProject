@@ -1,0 +1,182 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(199, 165, 120);
+    padding: 20px 0;
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
+    margin-left: 15%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5%;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #fbb040; /* Golden yellow */
+}
+
+.main-content {
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.product {
+    display: inline-block;
+    margin: 0 20px 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.product p {
+    margin: 10px 0;
+    color: #7d7d7d;
+}
+
+footer {
+    background-color: #7d7d7d; /* Dark gray */
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Styles for feedback bubbles */
+.feedback-item {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-comment {
+    margin-top: 10px;
+}
+header {
+    background-color: rgb(199, 165, 120);
+    padding: 20px 0;
+    text-align: center; /* Center the text */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 28px;
+    color: #fff; /* Set text color */
+}
+.product img {
+    width: 200px; /* Set the width to the desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+/* CSS */
+/* Style for the favorited button */
+.favorite-btn {
+    background-color: transparent;
+    border: 2px solid transparent; /* Add a transparent border */
+    border-radius: 20px; /* Adjust the border-radius to create a round shape */
+    padding: 8px 15px; /* Add padding to create space around the text */
+    font-size: 14px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions for smooth effects */
+}
+
+/* Style for the favorited button when favorited */
+.favorite-btn.favorited {
+    background-color: rgb(255, 99, 84); /* Change background color when favorited */
+    border-color: rgb(255, 84, 84); /* Change border color when favorited */
+}
+
+/* Add glow effect and scale transformation on hover */
+.favorite-btn:hover {
+    background-color: lightgray; /* Change background color on hover */
+    animation: glow 1.5s infinite alternate; /* Apply glow animation */
+    transform: scale(1.05); /* Scale transformation */
+    box-shadow: 0 0 10px rgb(228, 58, 58); /* Add shadow effect */
+}
+
+/* Glow animation */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px rgb(21, 21, 21);
+    }
+    100% {
+        box-shadow: 0 0 20px rgb(8, 8, 8);
+    }
+}
+.search-bar {
+    float: right;
+    margin-right: 20px; /* Adjust as needed */
+    width: 250px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+
+
